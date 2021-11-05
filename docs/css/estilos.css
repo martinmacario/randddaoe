@@ -25,3 +25,6 @@ font-family: 'DM Sans', sans-serif;
 .negro{
     color: black;
 }
+.text-justify {
+    text-align: justify;
+}
