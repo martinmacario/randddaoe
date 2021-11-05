@@ -25,6 +25,13 @@ font-family: 'DM Sans', sans-serif;
 .negro{
     color: black;
 }
-.text-justify {
+a.color-blue {
+    color: #666fe2;
+}
+a.color-blue:hover {
+    color:  #1018E4;
+}
+.modal p,
+.modal ol {
     text-align: justify;
 }
