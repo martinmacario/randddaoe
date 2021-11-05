@@ -4,10 +4,6 @@ font-family: 'DM Sans', sans-serif;
 .izquierda{
     text-align: left;
 }
-.centrar{
-    align-items: center
-
-}
 .red{
     background-color: red;
 }
@@ -17,11 +13,22 @@ font-family: 'DM Sans', sans-serif;
 .white{
     background-color: white;
 }
-.videoDAO{
-    display: block;
-    width: 100%;
-    height: 505px;
-}
 .negro{
     color: black;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
