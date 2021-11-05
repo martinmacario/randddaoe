@@ -32,3 +32,13 @@ font-family: 'DM Sans', sans-serif;
     width: 100%;
     height: 100%;
 }
+a.color-blue {
+    color: #666fe2;
+}
+a.color-blue:hover {
+    color:  #1018E4;
+}
+.modal p,
+.modal ol {
+    text-align: justify;
+}
