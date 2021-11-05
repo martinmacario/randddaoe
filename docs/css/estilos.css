@@ -42,3 +42,6 @@ a.color-blue:hover {
 .modal ol {
     text-align: justify;
 }
+textarea.form-control {
+    min-height: 5rem;
+}
