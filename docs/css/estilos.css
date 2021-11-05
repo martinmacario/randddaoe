@@ -31,3 +31,6 @@ a.color-blue {
 a.color-blue:hover {
     color:  #1018E4;
 }
+textarea.form-control {
+    min-height: 5rem;
+}
