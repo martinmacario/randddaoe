@@ -25,3 +25,37 @@ font-family: 'DM Sans', sans-serif;
 .negro{
     color: black;
 }
+.btn-primary {
+    color: #333333;
+}
+.btn-primary:hover {
+    color: black;
+}
+#portfolio .container-fluid .portfolio-box {
+    cursor: pointer;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+    opacity: 1;
+    background: none;
+}
+.project-name {
+    background-color: #DCE44B;
+    padding: 1.25rem 2.25rem;
+    color: #333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+    font-size: 0.85rem;
+}
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+    background: hsla(60, 60%, 71%, .5)
+}
+#portfolio .container-fluid .portfolio-box:hover .project-name {
+    color: black;
+    background-color: #E2E28A;
+    border-color: #E2E2C0;
+}
